@@ -1,4 +1,4 @@
-package com.e.testrim
+package com.e.testrim.ui
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.e.testrim.R
 import com.e.testrim.adapter.StationAdapter
 import com.e.testrim.models.ArrayOfObjStationData
 import com.rimtest.repositories.StationDataRepository
@@ -21,7 +22,6 @@ import com.rimtest.viem_model.StationDataViewModel
 import java.text.SimpleDateFormat
 import java.time.LocalTime
 import java.util.*
-import java.util.concurrent.TimeUnit
 
 
 class MainActivity : AppCompatActivity() {
