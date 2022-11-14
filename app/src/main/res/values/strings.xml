@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestRIM</string>
+    <string name="refresh">Refresh</string>
+    <string name="station_list">Station Data List</string>
+    <string name="stop_forecast">Stop Forecasting</string>
+    <string name="wrong_time">Wrong Time</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="no_data_available">No Data Available</string>
+</resources>
