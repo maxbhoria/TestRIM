@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         getStationData()
         buttonRefresh.setOnClickListener {
             stationDataRepository.getStationData(stationName)
-            getStationData()
+            getMohit()
         }
     }
 
